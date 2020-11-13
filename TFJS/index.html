@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> TF-JS DEMO </title>
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <link href="styles.css" rel="stylesheet">
+  <script type="text/javascript", src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+
+</head>
+
+<body>
+  <script>
+	
+  window.onload = loadModel();
+  </script>
+  <div class="container">
+    <h1 id="heading"> Demo of deploying Tensorflow models using TF-JS, HTML,CSS and JavaScript </h1>
+    <p>
+    The model is trained on CIFAR-10 dataset using TensorFlow Python API to predict/classify images of airplane, automobile, bird, cat, deer, dog, frog, horse, ship and truck.
+  </p>
+    <br />
+    <input type="file"  accept="image/*" name="image" id="file"  onchange="uploadButtonPressed(event)" value="Upload">
+    <input type="button" value="Predict" 
+      onclick="predictButtonPressed()" >
+
+    <br />
+    <img id = "output" src="" width="300px" height="300px" style="display: none;"/>
+    <br />
+    <p id = "results" style="display: none;">The predicted result is </p>
+
+  </div>
+  
+ 
+</body>
+
+</html>

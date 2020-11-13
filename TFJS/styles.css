@@ -1,0 +1,68 @@
+html,body {
+  height: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+canvas {
+width: 200px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+align-content: center;
+display: none;
+}
+.output {
+  display: none; 
+}
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+.container {
+  background-color:white;
+  color:black;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  font-size: 45px;
+}
+.container p {
+  text-align: center;
+  font-size: 45px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 100px;
+}
+.container h1 {
+
+  font-size: 40px;
+  color: #800080;
+  margin-top: 80;
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+}
+
+
+
+.container ol  {
+
+        text-align:left;
+        display: inline-block;
+        font-size: 22px;
+
+}
+
+.container p{
+  overflow-wrap: break-word;
+
+  font-size: 25px;
+  text-align: left;
+}
+.output {
+  font-size: 24px;
+}

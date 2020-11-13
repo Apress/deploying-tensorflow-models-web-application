@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> TFTLITE FLASK DEMO </title>
+
+<head>
+  <link href="../static/css/styles.css" rel="stylesheet">
+
+<body>
+  <div class="container">
+    <h1> Demo of deploying TFTLITE format using FLASK </h1>
+
+      The model is trained on CIFAR-10 dataset to predict/classify images of airplane, automobile, bird, cat, deer, dog, frog, horse, ship and truck.
+
+    <div class="form">
+      <form action="{{url_for('success')}}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file"> <br>
+
+        <button class="go-button" type="submit"> Submit </button>
+      </form>
+
+    </div>
+    <b>Instructions</b> :
+    <ol>
+      <li> Upload the image in 'jpeg'/'png'/'dcm' format </li>
+      <li> Click the submit button</li>
+    </ol>
+
+  </div>
+
+</body>
+
+</html>

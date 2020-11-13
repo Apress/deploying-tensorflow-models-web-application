@@ -1,0 +1,74 @@
+html,body {
+  height: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+.container {
+  background-color:white;
+  color:black;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  font-size: 25px;
+}
+.container p {
+  text-align: center;
+  font-size: 45px;
+  display: inline-block;
+}
+.container h1 {
+
+  font-size: 40px;
+  color: #800080;
+  margin-top: 80
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+}
+
+.form {
+  text-align: center;
+  margin: 30px;
+}
+
+input{
+  width: 350px;
+  height: 15px;
+  font-size: 15px;
+  margin: 2px;
+  float: center;
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.go-button {
+  width: 70px;
+  height:30px;
+  background-color: gray;
+  border: 2;
+  border-color: gray;
+  margin: 3px;
+}
+
+.container ol  {
+
+        text-align:left;
+        display: inline-block;
+        font-size: 22px;
+
+}
+
+.container p{
+  overflow-wrap: break-word;
+
+  font-size: 20px;
+  text-align: left;
+}
+.output {
+  font-size: 24px;
+}

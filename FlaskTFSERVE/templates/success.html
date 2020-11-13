@@ -1,0 +1,23 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <link href="../static/css/styles.css" rel="stylesheet">
+      <script>
+      function goBack() {
+          window.history.back();
+      }
+      </script>
+    </head>
+    <body>
+    <div class="container">
+      <h1>Results</h1>
+       <div class="output">
+        {{text|safe}}
+
+      </div>
+       <br/>
+      <button onclick="goBack()">Go Back</button>
+
+    </div>
+  </body>
+  </html>
